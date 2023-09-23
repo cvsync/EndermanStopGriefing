@@ -16,7 +16,7 @@ TMPDIR=./tmp
 #
 TEXTURES_SRCDIR=${RESOURCE_PACK_NAME}/data/minecraft/tags/blocks
 TEXTURES_DSTDIR=${TMPDIR}/data/minecraft/tags/blocks
-PACK_FORMAT=15
+PACK_FORMAT=18
 rm -f ${RESOURCE_PACK_FILE_JAVA}
 rm -f -r ${TMPDIR}
 mkdir -p ${TMPDIR} ${TMPDIR}/data
