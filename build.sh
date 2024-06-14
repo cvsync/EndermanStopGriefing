@@ -30,5 +30,9 @@ sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/pack.mcmeta
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} *)
-rm -f -r ${TMPDIR}
+(cd ${TMPDIR}/ && sudo chown -R 0:0 .)
+(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+sudo rm -f -r ${TMPDIR}
+
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.0
+cp ./*.zip ${VER_MAJOR}.${VER_MINOR}.0/
