@@ -28,6 +28,7 @@ cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
+sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/pack.mcmeta
