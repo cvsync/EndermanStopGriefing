@@ -6,7 +6,7 @@ The Minecraft data pack ``Enderman Stop-Griefing'' , which avoid to grief items 
 
 1.10.1
 
-## For Java Edition (1.21.9 or later) users
+## For Java Edition (1.21.9/1.21.10 or later) users
 
 1.) Download EndermanStopGriefing.zip
 
