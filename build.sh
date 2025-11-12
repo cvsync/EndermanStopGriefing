@@ -5,6 +5,7 @@ VER_MINOR=10
 VER_REV=1
 
 PACK_FORMAT=88
+PACK_FORMAT_MINOR=0
 
 UUID1=326ad7a9-8639-407f-b054-ea9d9f60297c
 UUID2=a8d31dc4-bfbd-4a3d-b220-c06effd49654
@@ -28,6 +29,7 @@ cp ${TEXTURES_SRCDIR}/enderman_holdable.json ${TEXTURES_DSTDIR}/enderman_holdabl
 cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
 cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
 sed "s/XXXPACKFORMATXXX/${PACK_FORMAT}/g" | \
+sed "s/XXXPACKFORMATMINORXXX/${PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMAJORXXX/${VER_MAJOR}/g" | \
 sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
