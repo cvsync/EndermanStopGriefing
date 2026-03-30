@@ -19,6 +19,9 @@ RESOURCE_PACK_FILE_JAVA=${RESOURCE_PACK_NAME}.zip
 
 TMPDIR=./tmp
 
+rm -f -r ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
+mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
+
 #
 # for Java Edition
 #
@@ -42,8 +45,7 @@ sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
 cat > ${TMPDIR}/pack.mcmeta
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
-(cd ${TMPDIR}/ && zip -r ../${RESOURCE_PACK_FILE_JAVA} . -i "*")
+(cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
 
-mkdir -p ${VER_MAJOR}.${VER_MINOR}.${VER_REV}
-cp ./*.zip ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
+ls -l ${VER_MAJOR}.${VER_MINOR}.${VER_REV}/
