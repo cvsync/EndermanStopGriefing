@@ -6,7 +6,7 @@ The Minecraft data pack, ``Enderman Stop-Griefing,'' prevents Enderman from grie
 
 1.12.0
 
-## For Java Edition (26.1/26.1.1 or later) users
+## For Java Edition (26.1/26.1.1/26.1.2 or later) users
 
 1.) Download `EndermanStopGriefing.zip` from the `1.12.0` directory.
 
