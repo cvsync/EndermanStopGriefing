@@ -33,7 +33,8 @@ mkdir -p ${TMPDIR} ${TMPDIR}/data
 mkdir -p ${TMPDIR}/data/minecraft ${TMPDIR}/data/minecraft/tags ${TMPDIR}/data/minecraft/tags/block
 cp ${TEXTURES_SRCDIR}/enderman_holdable.json ${TEXTURES_DSTDIR}/enderman_holdable.json
 cp -R ${RESOURCE_PACK_NAME}/pack.png ${TMPDIR}/
-cat ${RESOURCE_PACK_NAME}/pack.mcmeta | \
+_destfile=pack.mcmeta
+cat ${RESOURCE_PACK_NAME}/${_destfile} | \
 sed "s/XXXMAXPACKFORMATXXX/${MAX_PACK_FORMAT}/g" | \
 sed "s/XXXMAXPACKFORMATMINORXXX/${MAX_PACK_FORMAT_MINOR}/g" | \
 sed "s/XXXMINPACKFORMATXXX/${MIN_PACK_FORMAT}/g" | \
@@ -43,7 +44,7 @@ sed "s/XXXMINORXXX/${VER_MINOR}/g" | \
 sed "s/XXXREVXXX/${VER_REV}/g" | \
 sed "s/XXXUUID1XXX/${UUID1}/g" | \
 sed "s/XXXUUID2XXX/${UUID2}/g" | \
-cat > ${TMPDIR}/pack.mcmeta
+sed "s///g" > ${TMPDIR}/${_destfile}
 (cd ${TMPDIR}/ && sudo chown -R 0:0 .)
 (cd ${TMPDIR}/ && zip -r ../${VER_MAJOR}.${VER_MINOR}.${VER_REV}/${RESOURCE_PACK_FILE_JAVA} . -i "*")
 sudo rm -f -r ${TMPDIR}
