@@ -2,6 +2,10 @@
 
 The Minecraft data pack, ``Enderman Stop-Griefing,'' prevents Enderman from griefing items.
 
+エンダーマンがブロックをとるのを防ぐマインクラフトのデータパックです。
+
+Works in both single-player worlds and multiplayer servers.
+
 ## Latest Version
 
 1.12.1

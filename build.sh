@@ -1,5 +1,12 @@
 #! /bin/sh
 
+#
+# Enderman Stop-Griefing
+#
+# The Minecraft data pack, ``Enderman Stop-Griefing,'' prevents Enderman from griefing items.
+# https://github.com/cvsync/EndermanStopGriefing
+#
+
 VER_MAJOR=1
 VER_MINOR=12
 VER_REV=1
