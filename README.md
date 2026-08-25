@@ -1,27 +1,33 @@
 # Enderman Stop-Griefing
 
-The Minecraft data pack, ``Enderman Stop-Griefing,'' prevents Enderman from griefing items.
+A Minecraft data pack that prevents Enderman from griefing with blocks.
 
-Works in both single-player worlds and multiplayer servers.
+It works in both single-player worlds and multiplayer servers.
 
-エンダーマンがブロックをとるのを防ぐマインクラフトのデータパックです。
+エンダーマンがブロックを拾うのを防ぐマインクラフトのデータパックです。
 
-シングル・マルチのどちらにも対応しています。
+シングルプレイとマルチプレイのどちらにも対応しています。
 
-## Latest Version
+## Latest Release
 
 1.12.1
 
-## For Java Edition (26.1/26.1.1/26.1.2/26.2 or later)
+## Java Edition
 
-1.) Download `EndermanStopGriefing.zip` from the `1.12.1` directory.
+### 26.1/26.1.1/26.1.2/26.2 or later
 
-2.) Place it in `C:\Users\<Username>\AppData\Roaming\.minecraft\saves\<World>\datapacks`
+1. Download `EndermanStopGriefing.zip` from the `1.12.1` directory.
 
-## For Java Edition (1.21.9/1.21.10/1.21.11)
+2. Place the downloaded file in your Minecraft `datapacks` folder.
 
-Try version 1.11.2, as these files are stored in the `1.11.2` directory.
+On Windows, the default location is:
 
-## For older Java Edition
+`C:\Users\<Username>\AppData\Roaming\.minecraft\saves\<World>\datapacks`
 
-[Old Releases](OLD_RELEASES.md)
+### 1.21.9/1.21.10/1.21.11
+
+Use version 1.11.2 instead. The corresponding files are available in the `1.11.2` directory.
+
+### Older Minecraft versions
+
+See the [Old Releases](OLD_RELEASES.md) for older versions of the data pack.
