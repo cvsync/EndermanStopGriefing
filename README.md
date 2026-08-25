@@ -1,6 +1,6 @@
 # Enderman Stop-Griefing
 
-A Minecraft data pack that prevents Enderman from griefing with blocks.
+A Minecraft data pack that prevents Enderman from griefing.
 
 It works in both single-player worlds and multiplayer servers.
 
