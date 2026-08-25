@@ -3,7 +3,7 @@
 #
 # Enderman Stop-Griefing
 #
-# The Minecraft data pack, ``Enderman Stop-Griefing,'' prevents Enderman from griefing items.
+# A Minecraft data pack that prevents Enderman from griefing.
 # https://github.com/cvsync/EndermanStopGriefing
 #
 
