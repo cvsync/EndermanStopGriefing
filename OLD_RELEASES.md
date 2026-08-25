@@ -20,7 +20,7 @@ Use version 1.6.0 instead. The corresponding files are available in the `1.6.0` 
 
 Use version 1.5.0 instead. The corresponding files are available in the `1.5.0` directory.
 
-## Minecraft 1.2 1/ 1.21.1
+## Minecraft 1.21 / 1.21.1
 
 Use version 1.4.3 instead. The corresponding files are available in the `1.4.3` directory.
 
