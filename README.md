@@ -14,7 +14,7 @@ It works in both single-player worlds and multiplayer servers.
 
 ## Java Edition
 
-### Minecraft 26.1/26.1.1/26.1.2/26.2 or later
+### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
 
 1. Download `EndermanStopGriefing.zip` from the `1.12.1` directory.
 
@@ -24,7 +24,7 @@ On Windows, the default location is:
 
 `C:\Users\<Username>\AppData\Roaming\.minecraft\saves\<World>\datapacks`
 
-### Minecraft 1.21.9/1.21.10/1.21.11
+### Minecraft 1.21.9 / 1.21.10 / 1.21.11
 
 Use version 1.11.2 instead. The corresponding files are available in the `1.11.2` directory.
 
