@@ -2,6 +2,6 @@
   "pack": {
     "min_format": [ XXXMINPACKFORMATXXX, XXXMINPACKFORMATMINORXXX ],
     "max_format": [ XXXMAXPACKFORMATXXX, XXXMAXPACKFORMATMINORXXX ],
-    "description": "Enderman Stop-Griefing (Created by OkanGames2525) vXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
+    "description": "Enderman Stop-Griefing vXXXMAJORXXX.XXXMINORXXX.XXXREVXXX"
   }
 }
