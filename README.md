@@ -1,3 +1,5 @@
+<kbd><img src="./EndermanStopGriefing/pack.png" alt="resource pack icon"></img></kbd>
+
 # Enderman Stop-Griefing
 
 A Minecraft data pack that prevents Enderman from griefing.
