@@ -12,13 +12,13 @@ It works in both single-player worlds and multiplayer servers.
 
 ## Latest Release
 
-1.12.1
+1.12.2
 
 ## Java Edition
 
 ### Minecraft 26.1 / 26.1.1 / 26.1.2 / 26.2 or later
 
-1. Download `EndermanStopGriefing.zip` from the `1.12.1` directory.
+1. Download `EndermanStopGriefing.zip` from the `1.12.2` directory.
 
 2. Place the downloaded file in your Minecraft `datapacks` folder.
 
